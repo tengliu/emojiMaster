@@ -1,0 +1,372 @@
+[
+    {
+        "outputFile": "F:\\emojMaster\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 444,
+                        "endColumn": 53,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 57,
+                    "endOffset": 162
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 551,
+                        "endColumn": 57,
+                        "endOffset": 604
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 167,
+                    "endColumn": 52,
+                    "endOffset": 215
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 52,
+                        "endOffset": 546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 220,
+                    "endColumn": 56,
+                    "endOffset": 272
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 609,
+                        "endColumn": 56,
+                        "endOffset": 661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 277,
+                    "endColumn": 54,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 54,
+                        "endOffset": 385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 332,
+                    "endColumn": 53,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 390,
+                        "endColumn": 53,
+                        "endOffset": 439
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 49,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 235,
+                        "endColumn": 49,
+                        "endOffset": 280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 436,
+                    "endColumn": 43,
+                    "endOffset": 475
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 43,
+                        "endOffset": 140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 480,
+                    "endColumn": 47,
+                    "endOffset": 523
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 187,
+                        "endColumn": 47,
+                        "endOffset": 230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 528,
+                    "endColumn": 49,
+                    "endOffset": 573
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 285,
+                        "endColumn": 49,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 578,
+                    "endColumn": 44,
+                    "endOffset": 618
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 623,
+                    "endColumn": 41,
+                    "endOffset": 660
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 145,
+                        "endColumn": 41,
+                        "endOffset": 182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 665,
+                    "endColumn": 57,
+                    "endOffset": 718
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 723,
+                    "endColumn": 55,
+                    "endOffset": 774
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 779,
+                    "endColumn": 52,
+                    "endOffset": 827
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 158,
+                        "endColumn": 52,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 832,
+                    "endColumn": 48,
+                    "endOffset": 876
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 48,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 881,
+                    "endColumn": 52,
+                    "endOffset": 929
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 52,
+                        "endOffset": 153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 934,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1238
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1243,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1398
+                },
+                "from": {
+                    "file": "F:\\emojMaster\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 528,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 683
+                    }
+                }
+            }
+        ]
+    }
+]

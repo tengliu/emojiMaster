@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_press_selector_hui.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_btn_press_selector_hui.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_press_color_1.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_btn_press_color_1.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_press_color.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_btn_press_color.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_normal_color_hui.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_btn_normal_color_hui.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_press_selector.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_btn_press_selector.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_press_selector_1.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_btn_press_selector_1.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_border_color.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_border_color.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_border.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\textview_border.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_border_color_1.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_border_color_1.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_border_bg.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\textview_border_bg.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_normal_color.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_btn_normal_color.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_normal_color_1.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_btn_normal_color_1.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_border_color_white.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_border_color_white.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_press_color_hui.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\drawable\\bg_btn_press_color_hui.xml"
+    }
+]

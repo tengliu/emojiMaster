@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\emojMaster\app\libs\rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\rxjava-1.1.6_ca8018f43b2e9a98d6ee19e36a70d38076d4376d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\emojMaster\app\libs\rxandroid-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\rxandroid-1.2.0_4079b760ab5d0d0139bfca75d8aaad0264f40711\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\emojMaster\app\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_3af68c4e89e05416cc7a4a331484af878f639b34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\emojMaster\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0a529f83e3d58c35d46678bcf418855995d9b8a0">
+        <dex dex="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_94838b575cfe325b6877989cc2e3e18d99accc8f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\emojMaster\app\libs\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-3.3.1_3939c85dbed4933c4917540e827c051a7f73b3e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\emojMaster\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a1ade0523cb5de99adce187305b7507e335d8974">
+        <dex dex="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_05b7803f007327c0002c889e8690498eba33ba7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\emojMaster\app\libs\butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\butterknife-6.1.0_61b1c17c7ca9ba566271adc7afa03715c6311d6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\emojMaster\app\libs\okio-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1dc44f4cec20a64cebb68b90b4218f82ac7948b1">
+        <dex dex="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.7.0_e34509278c57d81da4c8f9a85ead6235821696cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\emojMaster\app\libs\BmobSDK_3.5.0_20160627.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5094b9ac6c4f000c5510f8022d4f323659afb17e">
+        <dex dex="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\BmobSDK_3.5.0_20160627_afd8a8c897115419e347c4aaf95fc1dd6591eaa1\classes.dex" />
+    </item>
+
+</items>

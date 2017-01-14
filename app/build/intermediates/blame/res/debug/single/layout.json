@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_header.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\layout\\include_header.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bind.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\layout\\activity_bind.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_onekey.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\layout\\activity_login_onekey.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reset_pwd.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\layout\\activity_reset_pwd.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\emojMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload.xml",
+        "source": "F:\\emojMaster\\app\\src\\main\\res\\layout\\activity_upload.xml"
+    }
+]

@@ -1,0 +1,7 @@
+#Sat Jan 14 21:36:50 CST 2017
+base.0=F\:\\emojMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_94838b575cfe325b6877989cc2e3e18d99accc8f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\emojMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_05b7803f007327c0002c889e8690498eba33ba7b\\classes.dex
+base.1=F\:\\emojMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_05b7803f007327c0002c889e8690498eba33ba7b
+file.0=F\:\\emojMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_94838b575cfe325b6877989cc2e3e18d99accc8f\\classes.dex
