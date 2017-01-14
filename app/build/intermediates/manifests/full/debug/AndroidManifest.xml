@@ -29,11 +29,6 @@
         <activity
             android:name="com.bmob.demo.sms.LoginActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.bmob.demo.sms.LoginOneKeyActivity" />
         <activity android:name="com.bmob.demo.sms.UserBindPhoneActivity" />
@@ -41,6 +36,11 @@
         <activity android:name="com.bmob.demo.sms.RegisterActivity" />
         <activity android:name="com.bmob.demo.sms.ResetPasswordActivity" />
         <activity android:name="com.bmob.demo.sms.UploadActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

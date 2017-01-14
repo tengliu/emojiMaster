@@ -51,6 +51,90 @@ public class UploadActivity extends BaseActivity {
         button_upload.setOnClickListener(new View.OnClickListener() {
 
           public void onClick(View view) {
+
+              Thread thread=new Thread(new Runnable() {
+                  @Override
+                  public void run() {
+                      String src=Environment.getExternalStorageDirectory() + "/" + "/Tencent/MicroMsg/fcd0479ad319fbde2b3b2ab1bf69970d/emoji/com.tencent.xin.emoticon.ali2";
+
+                      String dst=Environment.getExternalStorageDirectory() +"/temp1.png";
+
+                     // new File(Environment.getExternalStorageDirectory() + "/emoji");
+
+                      File ff =  new File(src);
+                      //File childFolder = new File(Environment.getExternalStorageDirectory() + "/" + Environment.DIRECTORY_DCIM  + "/" + "emoji");
+                      File pngFile=new File(dst);
+                      // File ff =  new File(Environment.getExternalStorageDirectory() + "/" + "/InstaSave");
+                      File[] fs = ff.listFiles();
+                      String[] filePaths = new String[fs.length];
+
+                      if (fs != null && fs.length > 0) {
+                          final int len = fs.length;
+                          for (int i = 0; i < len; i++) {
+                              filePaths[i] = fs[i].getAbsolutePath();
+                              try {
+                                  copyFile(filePaths[i],dst);
+                              } catch (Exception e) {
+                                  e.printStackTrace();
+                              }
+
+                              //File tempFile=new File(Environment.getExternalStorageDirectory() + "/emoji/" + "temp.png");
+                              //pngFile.renameTo(tempFile);
+                              filePaths[i]=pngFile.getAbsolutePath();
+                          }//获取该文件夹的所有文件的名字
+
+                          //thread.start();
+                          BmobFile.uploadBatch(filePaths, new UploadBatchListener() {
+                              @Override
+                              public void onSuccess(List<BmobFile> list, List<String> urls) {
+                                  Log.i("life", "insertBatchDatasWithMany -onSuccess :" + urls.size() + "-----" + "----" + urls);
+                                  if (urls.size() == len) {
+                                      toast("文件全部上传");
+                                      for (BmobFile bmobFile:list){
+
+                                          ImageFace imageFace=new ImageFace(bmobFile);
+                                          // Log.i("a",bmobFile.getFilename());
+                                          imageFace.setFileName(bmobFile.getFilename());
+                                          BmobACL acl = new BmobACL();  //创建ACL对象
+                                          if (BmobUser.getCurrentUser()!=null) {
+                                              acl.setReadAccess(BmobUser.getCurrentUser(), true); // 设置当前用户可写的权限
+                                              acl.setWriteAccess(BmobUser.getCurrentUser(), true); // 设置当前用户可写的权限
+                                          }
+
+                                          imageFace.setACL(acl);    //设置这条数据的ACL信息
+                                          imageFace.save(new SaveListener<String>() {
+                                                             @Override
+                                                             public void done(String s, BmobException e) {
+                                                                 if (e!=null){
+                                                                     Log.i("a",e.getMessage());}
+                                                             }
+                                                         }
+                                          );
+                                      }
+
+                                  } else {
+                                      toast("文件上传不完整");
+
+                                  }
+                              }
+
+
+                              @Override
+                              public void onProgress(int i, int i1, int i2, int i3) {
+                                  Log.i("life", "insertBatchDatasWithOne--onProgerss:" + i1 + "---" + i2 + "---" + i3);
+                              }
+
+                              @Override
+                              public void onError(int i, String s) {
+                                  showToast("错误码" + i + "错误描述:" + s);
+                              }
+                          });
+
+
+                      }
+                  }
+              });
+              thread.start();
 //                //上传文件的代码
 //                String filepath="/storage/emulated/0/InstaSave";
 //                File file=new File(filepath);
@@ -68,83 +152,7 @@ public class UploadActivity extends BaseActivity {
 //                });
 //            }
 
-              String src=Environment.getExternalStorageDirectory() + "/" + "/Tencent/MicroMsg/fcd0479ad319fbde2b3b2ab1bf69970d/emoji/com.tencent.xin.emoticon.ali2";
 
-              String dst=Environment.getExternalStorageDirectory() + "/emoji"+"/temp1.png";
-             Thread thread=new Thread(new Runnable() {
-                 @Override
-                 public void run() {
-
-                 }
-             });
-              new File(Environment.getExternalStorageDirectory() + "/emoji");
-
-              File ff =  new File(src);
-              //File childFolder = new File(Environment.getExternalStorageDirectory() + "/" + Environment.DIRECTORY_DCIM  + "/" + "emoji");
-              File pngFile=new File(dst);
-             // File ff =  new File(Environment.getExternalStorageDirectory() + "/" + "/InstaSave");
-              File[] fs = ff.listFiles();
-              String[] filePaths = new String[fs.length];
-              if (fs != null && fs.length > 0) {
-                  final int len = fs.length;
-                  for (int i = 0; i < len; i++) {
-                      filePaths[i] = fs[i].getAbsolutePath();
-                      try {
-                          copyFile(filePaths[i],dst);
-                      } catch (Exception e) {
-                          e.printStackTrace();
-                      }
-
-                      //File tempFile=new File(Environment.getExternalStorageDirectory() + "/emoji/" + "temp.png");
-                      //pngFile.renameTo(tempFile);
-                      filePaths[i]=pngFile.getAbsolutePath();
-              }//获取该文件夹的所有文件的名字
-                  BmobFile.uploadBatch(filePaths, new UploadBatchListener() {
-                      @Override
-                      public void onSuccess(List<BmobFile> list, List<String> urls) {
-                          Log.i("life", "insertBatchDatasWithMany -onSuccess :" + urls.size() + "-----" + "----" + urls);
-                          if (urls.size() == len) {
-                              toast("文件全部上传");
-                              for (BmobFile bmobFile:list){
-
-                                ImageFace imageFace=new ImageFace(bmobFile);
-                                 // Log.i("a",bmobFile.getFilename());
-                                imageFace.setFileName(bmobFile.getFilename());
-                                  BmobACL acl = new BmobACL();  //创建ACL对象
-                                  acl.setReadAccess(BmobUser.getCurrentUser(), true); // 设置当前用户可写的权限
-                                  acl.setWriteAccess(BmobUser.getCurrentUser(), true); // 设置当前用户可写的权限
-
-                                  imageFace.setACL(acl);    //设置这条数据的ACL信息
-                                  imageFace.save(new SaveListener<String>() {
-                                                     @Override
-                                                     public void done(String s, BmobException e) {
-                                                         if (e!=null){
-                                                         Log.i("a",e.getMessage());}
-                                                     }
-                                                 }
-                                  );
-                              }
-
-                          } else {
-                              toast("文件上传不完整");
-
-                          }
-                      }
-
-
-                      @Override
-                      public void onProgress(int i, int i1, int i2, int i3) {
-                          Log.i("life", "insertBatchDatasWithOne--onProgerss:" + i1 + "---" + i2 + "---" + i3);
-                      }
-
-                      @Override
-                      public void onError(int i, String s) {
-                          showToast("错误码" + i + "错误描述:" + s);
-                      }
-                  });
-
-
-              }
 
           }
         });

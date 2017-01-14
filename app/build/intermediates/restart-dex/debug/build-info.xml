@@ -5,33 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="190448714260380"
+    timestamp="195465271173693"
     token="-8175288544563301187"
-    verifier="MANIFEST_FILE_CHANGE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="252" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="48" />
     <task
         name="verifier"
-        duration="0" />
+        duration="5" />
 
     <artifact
-        location="F:\emojMaster\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="190448714260380"
+        timestamp="194940499025089"
         verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="F:\emojMaster\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="195465271173693"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\emojMaster\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

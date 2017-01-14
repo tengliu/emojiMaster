@@ -72,42 +72,42 @@ ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:21:5-44:19
 	android:theme
 		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:25:9-40
 activity#com.bmob.demo.sms.LoginActivity
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:27:9-31:20
 	android:label
 		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:29:13-45
 	android:name
 		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:28:13-42
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:30:13-34:29
-action#android.intent.action.MAIN
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:31:17-69
-	android:name
-		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:31:25-66
-category#android.intent.category.LAUNCHER
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:33:17-77
-	android:name
-		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:33:27-74
 activity#com.bmob.demo.sms.LoginOneKeyActivity
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:36:9-57
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:32:9-57
 	android:name
-		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:36:19-54
+		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:32:19-54
 activity#com.bmob.demo.sms.UserBindPhoneActivity
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:37:9-59
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:33:9-59
 	android:name
-		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:37:19-56
+		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:33:19-56
 activity#com.bmob.demo.sms.MainActivity
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:38:9-50
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:34:9-50
 	android:name
-		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:38:19-47
+		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:34:19-47
 activity#com.bmob.demo.sms.RegisterActivity
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:39:9-54
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:35:9-54
 	android:name
-		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:39:19-51
+		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:35:19-51
 activity#com.bmob.demo.sms.ResetPasswordActivity
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:40:9-59
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:36:9-59
 	android:name
-		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:40:19-56
+		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:36:19-56
 activity#com.bmob.demo.sms.UploadActivity
-ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:41:9-43:20
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:37:9-43:20
 	android:name
-		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:41:19-49
+		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:37:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from F:\emojMaster\app\src\main\AndroidManifest.xml:41:27-74
